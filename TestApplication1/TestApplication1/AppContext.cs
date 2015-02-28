@@ -10,7 +10,7 @@ namespace EFTest
     class AppContext : DbContext
     {
         public AppContext()
-            : base("EFTestDatabase")  // Name should match the connection string name since it's different than the context name
+             : base("MyDB")  // Name should match the connection string name since it's different than the context name
         {
 
         }
